@@ -17,5 +17,7 @@ int main()
 	
 	monthly_payment = (loan+(loan*(interest/100)*years)) / (years*12);
 	cout << "Monthly payment for this loan is(RM):RM" << monthly_payment << endl;
+	
+	cout <<"Please pay every month!";
 	return 0;
 }
